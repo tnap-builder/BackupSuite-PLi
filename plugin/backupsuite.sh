@@ -140,7 +140,7 @@ fi
 ############################## END PROGRAM BLOCKS #############################
 ########################## DECLARATION OF VARIABLES ###########################
 BACKUPDATE=`date +%Y.%m.%d_%H:%M`
-DATE=`date +%Y%m%d_%H%M`
+DATE="tnap 4.2 - "`date +%Y%m%d_%H%M`
 if [ -f "$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/speed.txt" ] ; then
 	ESTSPEED=`cat $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/speed.txt`
 	if [ $ESTSPEED -lt 50 ] ; then
